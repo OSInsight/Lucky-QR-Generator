@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lukcy QR</title>
+  <link rel="stylesheet" href="./css/popup.css" charset="utf-8">
+</head>
+
+<body>
+  <div class="container">
+    <div class="left" id="qrcode">
+    </div>
+    <div class="right">
+      <div>
+        <p class="hint">当前页面标题和地址</p>
+        <p class="title">标题：
+          <input type="text" id="title">
+        </p>
+        <p class="url">地址：
+          <input type="text" id="url">
+        </p>
+      </div>
+      <div class="create">
+        <p class="create-content">
+          <input type="text" placeholder="输入要生成二维码的内容" id="content">
+        </p>
+        <p class="create-generate">
+          <input type="button" value="生成二维码" id="generate">
+        </p>
+      </div>
+    </div>
+    <div class="bottom">
+      <p id="hintQR">当前页面QR码</p>
+      <p>lucky | baibaibai66@163.com</p>
+    </div>
+  </div>
+
+  <script src="./js/qrg.js"></script>
+  <script src="./js/popup.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+{
+  "name": "二维码生成器(Lucky QR Generator)",
+  "author": {
+    "name": "Lucky Bai",
+    "mail": "baibaibai66@163.com"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "./images/icon16.png",
+      "19": "./images/icon19.png",
+      "24": "./images/icon24.png",
+      "32": "./images/icon32.png",
+      "48": "./images/icon48.png"
+    },
+    "default_title": "QR Generator(@Lucky)",
+    "default_popup": "popup.html"
+  },
+  "version": "0.9",
+  "description": "Transfer URL to QR",
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "icons": {
+    "16": "./images/icon16.png",
+    "32": "./images/icon32.png",
+    "48": "./images/icon48.png",
+    "128": "./images/icon128.png"
+  },
+  "manifest_version": 2
+}
