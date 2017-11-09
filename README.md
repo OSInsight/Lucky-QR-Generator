@@ -6,7 +6,9 @@
 
 2. 所使用的JS生成QR代码来自：[Github地址](https://github.com/davidshimjs/qrcodejs)
 
-3. 仅供学习使用
+3. 效果图地址：[在这里](https://github.com/luckybai/Lucky-QR-Generator/tree/master/screenshots)
+
+4. 仅供学习使用
 
 ## 特色：
 
